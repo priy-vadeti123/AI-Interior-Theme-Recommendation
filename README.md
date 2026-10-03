@@ -1,5 +1,7 @@
 AI-Based Room Interior Theme Recommendation System
+
 Project Overview
+
 The AI-Based Room Interior Theme Recommendation System is a simple
 web application that uses Generative AI to recommend interior design
 themes based on a user's room details and preferences.
@@ -10,6 +12,7 @@ The project also includes a basic connection with Indian Knowledge
 Systems (IKS) by incorporating selected Indian traditional design
 ideas, natural materials, colors, craft traditions, and decorative
 elements.
+
 Features
 - Select room type
 - Select room size
@@ -26,12 +29,14 @@ Features
   - Materials
   - IKS inspiration
 - Simple and beginner-friendly Streamlit interface
+  
 Technologies Used
 - Python
 - Streamlit -- web application interface
 - Google Gemini API -- Generative AI recommendations
 - python-dotenv -- secure environment variable handling
 - Google GenAI Python SDK
+  
 Project Structure
 AI-Interior-Theme-Recommendation/
 │
@@ -55,6 +60,7 @@ Replace YOUR_API_KEY with your own Gemini API key.
 4. Run the application
 python -m streamlit run app.py
 The application will open in the browser at the local Streamlit address.
+
 How the System Works
 1. User opens the application.
 2. User enters/selects room details.
@@ -64,6 +70,7 @@ How the System Works
 6. The AI generates an interior theme recommendation.
 7. The recommendation is displayed in the Streamlit application.
 8. The result includes an IKS-inspired section.
+   
 Indian Knowledge Systems (IKS) Connection
 The project connects with IKS through selected Indian traditional design
 elements. The recommendations can refer to:
@@ -72,6 +79,7 @@ elements. The recommendations can refer to:
 - Traditional craft and decorative elements
 - Indian-inspired textures and aesthetics
 - Traditional design influences adapted for modern rooms
+  
 The IKS component is kept simple and is intended to provide culturally
 inspired interior recommendations rather than claim that every
 AI-generated recommendation represents a historical IKS principle.
@@ -82,7 +90,7 @@ GitHub:
 .env
 venv/
 __pycache__/
-Never share the API key publicly.
+
 Testing
 The application was tested using different combinations of:
 - Bedroom
@@ -95,6 +103,7 @@ The application was tested using different combinations of:
 - Different lighting preferences
 The application successfully generated AI recommendations for the tested
 combinations.
+
 Limitations
 - Recommendations depend on the Gemini AI response.
 - The application does not generate actual room images.
@@ -102,6 +111,7 @@ Limitations
 - It does not use room photographs or measurements.
 - Internet access is required for Gemini API requests.
 - Gemini API usage may be subject to quota limits.
+  
 Future Scope
 - Add room image upload
 - Generate visual room designs
@@ -112,13 +122,13 @@ Future Scope
 Live Deployment
 Live Application: Add your Streamlit Community Cloud URL here after
 deployment.
-Example:
-https://your-app-name.streamlit.app
+
 GitHub Repository
-GitHub: Add your GitHub repository URL here.
+GitHub: 
+
 Student Information
 - Student Name: Priya Vadeti
 - Roll Number: 19060
 - Class: TY IT
 - Project: AI-Based Room Interior Theme Recommendation System
-- Academic Year:2026-27
+- Academic Year: 2026-27
