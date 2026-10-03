@@ -120,11 +120,12 @@ Future Scope
 - Add a larger verified IKS knowledge base
 - Add user accounts and saved recommendations
 Live Deployment
-Live Application: Add your Streamlit Community Cloud URL here after
-deployment.
+Live link: https://ai-interior-theme-recommendation-nhzcdfqlohmmhbfcnctvty.streamlit.app/?utm_source=chatgpt.com
+
+Deployment link : https://ai-interior-theme-recommendation-nhzcdfqlohmmhbfcnctvty.streamlit.app/
 
 GitHub Repository
-GitHub: 
+GitHub: https://github.com/priy-vadeti123/AI-Interior-Theme-Recommendation
 
 Student Information
 - Student Name: Priya Vadeti
